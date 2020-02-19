@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.snakeludo">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dice"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dice"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".seventeen"></activity>
+        <activity android:name=".sixteen" />
+        <activity android:name=".fifteen" />
+        <activity android:name=".fourteen" />
+        <activity android:name=".thirteen" />
+        <activity android:name=".twelve" />
+        <activity android:name=".eleven" />
+        <activity android:name=".ten" />
+        <activity android:name=".nine" />
+        <activity android:name=".eight" />
+        <activity android:name=".seven" />
+        <activity android:name=".six" />
+        <activity android:name=".five" />
+        <activity android:name=".four" />
+        <activity android:name=".three" />
+        <activity android:name=".two" />
+        <activity android:name=".onec" />
+        <activity android:name=".oneb" />
+        <activity android:name=".one" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".stair" />
+        <activity android:name=".dice" />
+        <activity android:name=".snake" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
